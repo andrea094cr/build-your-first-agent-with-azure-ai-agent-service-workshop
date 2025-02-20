@@ -6,12 +6,10 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:1": {
             "extensions": "ml"
-        },
-        "ghcr.io/devcontainers/features/powershell:1": {}
+        }
     },
     "customizations": {
         "vscode": {
